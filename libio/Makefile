@@ -66,6 +66,7 @@ routines_no_fortify += \
   vswprintf \
   vwprintf \
   wprintf \
+  iovdprintf \
   # routines_no_fortify
 
 tests = tst_swprintf tst_wprintf tst_swscanf tst_wscanf tst_getwc tst_putwc   \

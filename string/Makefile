@@ -133,6 +133,7 @@ routines_no_fortify += \
   strlcpy \
   strncat \
   strncpy \
+  bzero \
   # routines_no_fortify
 
 tests := \

@@ -84,6 +84,7 @@ libc_hidden_proto (__mempcpy)
 # define __mempcpy(dest, src, n) __builtin_mempcpy (dest, src, n)
 #endif
 libc_hidden_proto (__stpcpy)
+//#if !defined __NO_STRING_INLINES && !defined __clang__
 #ifndef __NO_STRING_INLINES
 # define __stpcpy(dest, src) __builtin_stpcpy (dest, src)
 #endif
